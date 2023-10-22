@@ -11,8 +11,6 @@ export default function App() {
     <Navbar/>
     <Home/>
     <Parent/>
-    <Blog/>
-    <Boot/>
     </>
   )
 }
