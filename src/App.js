@@ -1,14 +1,18 @@
-import { Component } from "react";
-
-import { Navbar } from "./NAVBAR/Navbar";
+import  Home  from "./HOME/Home";
+import Navbar from "./NAVBAR/Navbar";
+import React from 'react'
 import Parent from "./Parent/Parent";
-export  default class App extends Component{
-    render(){
-        return <>
-        <Navbar/>
-    
-        <Parent/>
-        </>
-        
-    }
+import Blog from "./BLOG/Blog";
+import Boot from "./BOOOT/Boot";
+
+export default function App() {
+
+  return (<>
+    <Navbar/>
+    <Home/>
+    <Parent/>
+    <Blog/>
+    <Boot/>
+    </>
+  )
 }
